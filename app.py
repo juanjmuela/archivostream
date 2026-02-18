@@ -9,7 +9,7 @@ opciones = [
     "1 INSTANCIA 1", "2 INSTANCIA 2", "3 INSTANCIA 3", "4 INSTANCIA 4",
     "5 INSTANCIA 5", "6 INSTANCIA 6", "7 INSTANCIA 7", "8 INSTRUCCIÓN 1",
     "9 INSTRUCCIÓN 2", "10 INSTRUCCIÓN 3 / VIGILANCIA PENITENCIARIA",
-    "11 PENAL 1", "12 PENAL 2", "13 PENAL 3", "14 VIOLENCIA SOBRE LA MUJER",
+    "11 PENAL 1", "12 PENAL 2", "13 PENAL 3 (Creado en 2020)", "14 VIOLENCIA SOBRE LA MUJER",
     "15 MENORES", "16 SOCIAL 1", "17 SOCIAL 2", "18 SOCIAL 3",
     "19 CONT. ADM 1", "20 CONT. ADM. 2", "21 AUDIENCIA PROV."
 ]
@@ -102,3 +102,4 @@ elif año_input != "":
 
 st.divider()
 st.caption("Base de datos realizada según el folio que andaba pegado a un armario.")
+
