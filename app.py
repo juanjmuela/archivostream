@@ -40,13 +40,13 @@ if año_input.isdigit():
         if año > 2017: st.success("BLOQUE C PLANTA 1º SUR C1.2 - NO DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 4:
-        if año > 2018: st.success("BLOQUE B PLANTA 1º SUR - DIGITALIZADO")
+        if año > 2018: st.success("BLOQUE B PLANTA 1º SUR B1.1- DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 5:
         if año > 2015: st.success("BLOQUE B PLANTA 1º NORTE B1.4 - DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 6:
-        if año > 2020: st.success("BLOQUE B PLANTA 2º SUR B2.4 - DIGITALIZADO")
+        if año > 2020: st.success("BLOQUE B PLANTA 2º SUR B2.1 - DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 7:
         if año > 2019: st.success("BLOQUE C PLANTA 1º SUR C1.1 - DIGITALIZADO")
@@ -54,13 +54,13 @@ if año_input.isdigit():
     
     # Casos Especiales 8, 9, 10
     elif juzgado_num == 8:
-        if 2013 < año < 2019: st.success("BLOQUE B PLANTA 1º SUR B1.3 - NO DIGITALIZADO")
-        elif año >= 2019: st.warning("🏛️ COLEGIO DE ABOGADOS")
+        if 2013 < año < 2021: st.success("BLOQUE B PLANTA 1º SUR B1.3 - NO DIGITALIZADO")
+        elif año >= 2021: st.warning("🏛️ COLEGIO DE ABOGADOS")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 9:
         st.warning("BLOQUE B PLANTA 1º SUR B1.2 - NO DIGITALIZADO. SI ES MUY NUEVO COLEGIO DE ABOGADOS. SI ES MUY ANTIGUO PEDIR A ARCHIVO. CONSULTAR A CRISTINA")
     elif juzgado_num == 10:
-        if 2014 < año < 2022: st.success("BLOQUE B PLANTA 1º SUR B1.3 - NO DIGITALIZADO 🦥")
+        if 2014 < año < 2022: st.success("BLOQUE A PLANTA 1º SUR A1.1 - NO DIGITALIZADO 🦥")
         elif año >= 2022: st.warning("🏛️ COLEGIO DE ABOGADOS")
         else: st.info("PEDIR AL ARCHIVO")
     
@@ -69,7 +69,7 @@ if año_input.isdigit():
         if año > 2015: st.success("BLOQUE B PLANTA 2º NORTE B2.4 - NO DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 12:
-        if año > 2013: st.success("BLOQUE C PLANTA 2º NORTE C2.4 - NO DIGITALIZADO")
+        if año > 2013: st.success("BLOQUE C PLANTA 2º NORTE C2.4 (Si EJEC ANTERIOR A 225/2014 PEDIR ARCHIVO - NO DIGITALIZADO")
         else: st.info("PEDIR AL ARCHIVO")
     elif juzgado_num == 13:
         st.success("EJECUTORIAS BLOQUE B PLANTA 2º NORTE / RESTO EN COLEGIO DE ABOGADOS - DIGITALIZADO")
@@ -102,4 +102,5 @@ elif año_input != "":
 
 st.divider()
 st.caption("Base de datos realizada según el folio que andaba pegado a un armario.")
+
 
